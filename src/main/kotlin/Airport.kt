@@ -7,4 +7,9 @@ class Airport {
         return this.hangar
     }
 
+    fun launchPlane(plane: Plane): Any {
+        this.hangar.remove(element = plane)
+        return this.hangar
+    }
+
 }

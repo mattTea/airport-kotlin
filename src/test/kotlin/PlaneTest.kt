@@ -7,7 +7,6 @@ class PlaneTest {
 
     private val plane = Plane()
     val airportMock = mockk<Airport>()
-//    private val airport = Airport()
 
     @Test
     fun `isFlying is true when initialised`() {
@@ -15,9 +14,17 @@ class PlaneTest {
     }
 
     @Test
-    fun `land() sets isFlying to false`() {
+    fun `land sets isFlying to false`() {
         every { airportMock.landPlane(plane) } returns mutableListOf(plane)
         plane.land(airportMock)
         assertFalse(plane.isFlying)
+    }
+
+    @Test
+    fun `takeOff sets isFlying to true`() {
+        every { airportMock.landPlane(plane) } returns mutableListOf(plane)
+        plane.land(airportMock)
+        every { airportMock.launchPlane(plane) } returns mutableListOf<Plane>()
+        plane.takeOff(airportMock)
     }
 }

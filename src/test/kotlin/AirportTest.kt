@@ -18,4 +18,12 @@ class AirportTest {
         assertEquals(1, airport.hangar.size)
     }
 
+    @Test
+    fun `removes plane from hangar when launched`() {
+        airport.landPlane(planeMock)
+        assertEquals(1, airport.hangar.size)
+        airport.launchPlane(planeMock)
+        assertEquals(0, airport.hangar.size)
+    }
+
 }

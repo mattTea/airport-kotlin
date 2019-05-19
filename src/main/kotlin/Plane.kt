@@ -8,4 +8,10 @@ class Plane {
         return this
     }
 
+    fun takeOff(airport: Airport): Any {
+        airport.launchPlane(this)
+        this.isFlying = true
+        return this
+    }
+
 }
