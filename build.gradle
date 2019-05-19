@@ -10,6 +10,7 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    testImplementation "io.mockk:mockk:1.9"
 }
 
 compileKotlin {

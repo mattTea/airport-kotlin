@@ -1,8 +1,10 @@
 class Plane {
 
-    val isFlying : Boolean = true
+    var isFlying : Boolean = true
 
-    fun land(): Any {
+    fun land(airport: Airport): Any {
+        airport.landPlane(this)
+        this.isFlying = false
         return this
     }
 
