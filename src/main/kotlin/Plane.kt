@@ -3,15 +3,23 @@ class Plane {
     var isFlying : Boolean = true
 
     fun land(airport: Airport): Any {
-        airport.landPlane(this)
-        this.isFlying = false
-        return this
+        return if (!this.isFlying) {
+            "Plane has already landed"
+        } else {
+            airport.landPlane(this)
+            this.isFlying = false
+            this
+        }
     }
 
     fun takeOff(airport: Airport): Any {
-        airport.launchPlane(this)
-        this.isFlying = true
-        return this
+        return if (this.isFlying) {
+            "Plane is already flying"
+        } else {
+            airport.launchPlane(this)
+            this.isFlying = true
+            this
+        }
     }
 
 }

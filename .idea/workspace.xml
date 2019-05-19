@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca4bef63-cfcb-44d9-b6e1-8abc74a85e2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Airport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Airport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Plane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PlaneTest$land() sets isFlying to false$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PlaneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/PlaneTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Airport.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Airport.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Plane.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Plane.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/AirportTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/AirportTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/PlaneTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/PlaneTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -90,7 +84,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/kotlin/AirportTest.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="405">
@@ -102,11 +96,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/kotlin/PlaneTest.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="369">
-                  <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+                <state relative-caret-position="248">
+                  <caret line="32" column="47" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="47" />
                   <folding>
                     <element signature="e#0#91#0" expanded="true" />
                   </folding>
@@ -118,7 +112,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/Airport.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="195">
@@ -127,11 +121,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/Plane.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -156,10 +150,10 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/PlaneTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/Plane.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Airport.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/AirportTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/PlaneTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/Plane.kt" />
       </list>
     </option>
   </component>
@@ -300,11 +294,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaneTest.land" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaneTest.takeOff raises error if plane is already flying" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Airport_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlaneTest" />
-      <option name="METHOD_NAME" value="land() sets isFlying to false" />
+      <option name="METHOD_NAME" value="takeOff raises error if plane is already flying" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -333,18 +327,18 @@
     <list>
       <item itemvalue="JUnit.All tests" />
       <item itemvalue="JUnit.PlaneTest" />
-      <item itemvalue="JUnit.PlaneTest.land" />
       <item itemvalue="JUnit.PlaneTest.takeOff" />
       <item itemvalue="JUnit.PlaneTest.takeOff sets isFlying to true" />
       <item itemvalue="JUnit.AirportTest.removes plane from hangar when launched" />
+      <item itemvalue="JUnit.PlaneTest.takeOff raises error if plane is already flying" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AirportTest.removes plane from hangar when launched" />
         <item itemvalue="JUnit.PlaneTest.takeOff sets isFlying to true" />
+        <item itemvalue="JUnit.PlaneTest.takeOff raises error if plane is already flying" />
+        <item itemvalue="JUnit.AirportTest.removes plane from hangar when launched" />
         <item itemvalue="JUnit.PlaneTest.takeOff" />
         <item itemvalue="JUnit.PlaneTest" />
-        <item itemvalue="JUnit.PlaneTest.land" />
       </list>
     </recent_temporary>
   </component>
@@ -358,44 +352,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558256755819</updated>
-      <workItem from="1558256763635" duration="4730000" />
+      <workItem from="1558256763635" duration="10091000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlaneTest - 2019.05.19 at 11h 46m 58s.xml">
-      <configuration name="PlaneTest" configurationId="JUnit" />
+    <history-entry file="PlaneTest_takeOff_raises_error_if_plane_is_already_flying - 2019.05.19 at 15h 01m 37s.xml">
+      <configuration name="PlaneTest.takeOff raises error if plane is already flying" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2019.05.19 at 11h 47m 05s.xml">
+    <history-entry file="PlaneTest_takeOff_raises_error_if_plane_is_already_flying - 2019.05.19 at 15h 02m 12s.xml">
+      <configuration name="PlaneTest.takeOff raises error if plane is already flying" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2019.05.19 at 15h 02m 17s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2019.05.19 at 11h 50m 33s.xml">
+    <history-entry file="PlaneTest_takeOff_raises_error_if_plane_is_already_flying - 2019.05.19 at 15h 06m 15s.xml">
+      <configuration name="PlaneTest.takeOff raises error if plane is already flying" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2019.05.19 at 15h 06m 36s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2019.05.19 at 11h 53m 49s.xml">
+    <history-entry file="All_tests - 2019.05.19 at 15h 09m 24s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2019.05.19 at 11h 58m 55s.xml">
+    <history-entry file="All_tests - 2019.05.19 at 15h 13m 19s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaneTest_takeOff - 2019.05.19 at 12h 39m 26s.xml">
-      <configuration name="PlaneTest.takeOff" configurationId="JUnit" />
+    <history-entry file="All_tests - 2019.05.19 at 15h 18m 12s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlaneTest_takeOff - 2019.05.19 at 13h 01m 27s.xml">
-      <configuration name="PlaneTest.takeOff" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlaneTest_takeOff - 2019.05.19 at 13h 01m 54s.xml">
-      <configuration name="PlaneTest.takeOff" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlaneTest_takeOff_sets_isFlying_to_true - 2019.05.19 at 13h 10m 08s.xml">
+    <history-entry file="PlaneTest_takeOff_sets_isFlying_to_true - 2019.05.19 at 15h 18m 41s.xml">
       <configuration name="PlaneTest.takeOff sets isFlying to true" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2019.05.19 at 13h 10m 32s.xml">
+    <history-entry file="All_tests - 2019.05.19 at 15h 18m 56s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16452000" />
+    <option name="totallyTimeSpent" value="21813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,23 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Plane.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/PlaneTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Airport.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -545,6 +522,23 @@
           <folding>
             <element signature="e#0#80#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/PlaneTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Plane.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
